@@ -2,7 +2,6 @@
   "name": "node-example",
   "version": "0.0.1",
   "dependencies": {
-    "cluster": "0.6.3",
     "express": "2.3.11",
     "coffee-script": "1.1.1",
     "mongoose": "1.4.0"
