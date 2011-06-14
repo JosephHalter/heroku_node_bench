@@ -3,5 +3,5 @@ port = parseInt(process.env.PORT || 3000);
 # app.listen port, ->
 #   console.log "Listening on " + port + "..."
 cluster = require "cluster"
-cluster('./app').set('workers', 2).listen port, ->
+cluster('./app').set('workers', 3).listen port, ->
   console.log "Listening on " + port + "..."
